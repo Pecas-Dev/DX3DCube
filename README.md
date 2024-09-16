@@ -6,6 +6,13 @@
 
 This project demonstrates the creation of a 3D cube rendered using DirectX 11. The project is built entirely from scratch, including window creation, the graphical rendering pipeline, and a simple input system to rotate the cube using the WASD or arrow keys.
 
+<br>
+
+![Cube2](https://github.com/user-attachments/assets/1a0cda85-a981-4066-b1a5-05a4f655134f)
+
+<br>
+
+--------------------------------
 ## Features
 
 - **Window Creation**: Set up from scratch to create a rendering window.
@@ -15,7 +22,7 @@ This project demonstrates the creation of a 3D cube rendered using DirectX 11. T
 
 ## Shaders
 
-### Vertex Shader
+### - Vertex Shader
 
 The vertex shader transforms the 3D coordinates of each vertex into 2D screen coordinates and passes color information to the pixel shader.
 
@@ -57,7 +64,7 @@ VS_OUTPUT vsmain(VS_INPUT input)
 }
 ```
 
-### Pixel Shader
+### - Pixel Shader
 
 The pixel shader interpolates the colors between color and color1 based on a sine wave function to create a fading effect.
 
@@ -99,9 +106,9 @@ float4 psmain(PS_INPUT input) : SV_TARGET
 git clone https://github.com/Pecas-Dev/DX3DCube.git
 ```
 
-2. Build the project using your preferred IDE (preferably Visual Studio).
+2. Build the project using the Visual Studio IDE.
 
-3. Run the code inside the IDE to see the 3D cube with the fading shader effect.
+3. Run the code inside the VS in the x64 Platform to run the Program.
 
 ## Controls
 
