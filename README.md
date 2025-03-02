@@ -12,7 +12,8 @@ This project demonstrates the creation of a 3D cube rendered using DirectX 11. T
 
 <br>
 
---------------------------------
+---
+
 ## Features
 
 - **Window Creation**: Set up from scratch to create a rendering window.
@@ -98,17 +99,17 @@ float4 psmain(PS_INPUT input) : SV_TARGET
 - App: Manages the execution of the graphics engine and other scripts.
 - main.cpp: Entry point of the application.
 
-## How to Run
+## Installation & Running
 
-1. Clone the repository:
+1. Clone the repository: `git clone https://github.com/Pecas-Dev/DX3DCube.git`
 
-```bash
-git clone https://github.com/Pecas-Dev/DX3DCube.git
-```
+2. Open `DX3DCube.sln` in **Visual Studio**.
 
-2. Build the project using the Visual Studio IDE.
+3. Choose your configuration (Debug/Release) and platform (x64/x86).
 
-3. Run the code inside the VS in the x64 Platform to run the Program.
+4. Build the solution.
+
+5. Run the program.
 
 ## Controls
 
